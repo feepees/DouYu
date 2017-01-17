@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HdU-jb-05N">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的-->
+        <scene sceneID="2HR-Ck-1BT">
+            <objects>
+                <viewController id="UCt-69-5Qb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oCe-VV-kp4"/>
+                        <viewControllerLayoutGuide type="bottom" id="y4h-ds-HXf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="71T-65-erK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" id="TQj-GF-qkm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wDj-En-fEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="1104.1979010494754"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="0L1-Xd-Onj">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="HdU-jb-05N" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" id="OfH-k4-0O4"/>
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="jbU-eS-U6T">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UCt-69-5Qb" kind="relationship" relationship="viewControllers" id="h1a-ki-8tH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EjE-r3-mmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2000000000000002" y="1104.1979010494754"/>
+        </scene>
+    </scenes>
+</document>
